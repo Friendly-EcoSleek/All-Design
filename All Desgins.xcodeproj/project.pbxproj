@@ -13,6 +13,13 @@
 		4D895FC925F772AB002C8F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D895FC825F772AB002C8F98 /* Assets.xcassets */; };
 		4D895FCC25F772AB002C8F98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D895FCB25F772AB002C8F98 /* Preview Assets.xcassets */; };
 		4D895FCF25F772AB002C8F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D895FCD25F772AB002C8F98 /* LaunchScreen.storyboard */; };
+		4D895FDC25F77312002C8F98 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FDB25F77312002C8F98 /* CardStackView.swift */; };
+		4D895FE625F773C4002C8F98 /* PhoneNoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FE425F773C4002C8F98 /* PhoneNoType.swift */; };
+		4D895FE725F773C4002C8F98 /* ObservableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FE525F773C4002C8F98 /* ObservableTextField.swift */; };
+		4D895FEA25F773D8002C8F98 /* PhoneCodeTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FE925F773D8002C8F98 /* PhoneCodeTap.swift */; };
+		4D895FED25F773EA002C8F98 /* PasscodeField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FEC25F773EA002C8F98 /* PasscodeField.swift */; };
+		4D895FF025F773FE002C8F98 /* TypesOfSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FEF25F773FE002C8F98 /* TypesOfSheets.swift */; };
+		4D895FF325F77412002C8F98 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FF225F77412002C8F98 /* Gender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		4D895FCB25F772AB002C8F98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D895FCE25F772AB002C8F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D895FD025F772AB002C8F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D895FDB25F77312002C8F98 /* CardStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
+		4D895FE425F773C4002C8F98 /* PhoneNoType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNoType.swift; sourceTree = "<group>"; };
+		4D895FE525F773C4002C8F98 /* ObservableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableTextField.swift; sourceTree = "<group>"; };
+		4D895FE925F773D8002C8F98 /* PhoneCodeTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCodeTap.swift; sourceTree = "<group>"; };
+		4D895FEC25F773EA002C8F98 /* PasscodeField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeField.swift; sourceTree = "<group>"; };
+		4D895FEF25F773FE002C8F98 /* TypesOfSheets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypesOfSheets.swift; sourceTree = "<group>"; };
+		4D895FF225F77412002C8F98 /* Gender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,12 @@
 				4D895FC225F7729E002C8F98 /* AppDelegate.swift */,
 				4D895FC425F7729E002C8F98 /* SceneDelegate.swift */,
 				4D895FC625F7729E002C8F98 /* ContentView.swift */,
+				4D895FDA25F772E1002C8F98 /* CardStack */,
+				4D895FDE25F7732A002C8F98 /* First Method */,
+				4D895FE125F77369002C8F98 /* SecondMethod */,
+				4D895FE025F7733F002C8F98 /* PasscodeField */,
+				4D895FE225F77389002C8F98 /* DifferentActionSheets */,
+				4D895FE325F773A5002C8F98 /* Picker */,
 				4D895FC825F772AB002C8F98 /* Assets.xcassets */,
 				4D895FCD25F772AB002C8F98 /* LaunchScreen.storyboard */,
 				4D895FD025F772AB002C8F98 /* Info.plist */,
@@ -73,6 +93,56 @@
 				4D895FCB25F772AB002C8F98 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D895FDA25F772E1002C8F98 /* CardStack */ = {
+			isa = PBXGroup;
+			children = (
+				4D895FDB25F77312002C8F98 /* CardStackView.swift */,
+			);
+			path = CardStack;
+			sourceTree = "<group>";
+		};
+		4D895FDE25F7732A002C8F98 /* First Method */ = {
+			isa = PBXGroup;
+			children = (
+				4D895FE525F773C4002C8F98 /* ObservableTextField.swift */,
+				4D895FE425F773C4002C8F98 /* PhoneNoType.swift */,
+			);
+			path = "First Method";
+			sourceTree = "<group>";
+		};
+		4D895FE025F7733F002C8F98 /* PasscodeField */ = {
+			isa = PBXGroup;
+			children = (
+				4D895FEC25F773EA002C8F98 /* PasscodeField.swift */,
+			);
+			path = PasscodeField;
+			sourceTree = "<group>";
+		};
+		4D895FE125F77369002C8F98 /* SecondMethod */ = {
+			isa = PBXGroup;
+			children = (
+				4D895FE925F773D8002C8F98 /* PhoneCodeTap.swift */,
+			);
+			path = SecondMethod;
+			sourceTree = "<group>";
+		};
+		4D895FE225F77389002C8F98 /* DifferentActionSheets */ = {
+			isa = PBXGroup;
+			children = (
+				4D895FEF25F773FE002C8F98 /* TypesOfSheets.swift */,
+			);
+			name = DifferentActionSheets;
+			path = PasscodeField;
+			sourceTree = "<group>";
+		};
+		4D895FE325F773A5002C8F98 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				4D895FF225F77412002C8F98 /* Gender.swift */,
+			);
+			path = Picker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +216,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D895FC325F7729E002C8F98 /* AppDelegate.swift in Sources */,
+				4D895FDC25F77312002C8F98 /* CardStackView.swift in Sources */,
+				4D895FF025F773FE002C8F98 /* TypesOfSheets.swift in Sources */,
 				4D895FC525F7729E002C8F98 /* SceneDelegate.swift in Sources */,
 				4D895FC725F7729E002C8F98 /* ContentView.swift in Sources */,
+				4D895FED25F773EA002C8F98 /* PasscodeField.swift in Sources */,
+				4D895FF325F77412002C8F98 /* Gender.swift in Sources */,
+				4D895FEA25F773D8002C8F98 /* PhoneCodeTap.swift in Sources */,
+				4D895FE725F773C4002C8F98 /* ObservableTextField.swift in Sources */,
+				4D895FE625F773C4002C8F98 /* PhoneNoType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
