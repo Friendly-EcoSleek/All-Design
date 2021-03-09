@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		4D895FED25F773EA002C8F98 /* PasscodeField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FEC25F773EA002C8F98 /* PasscodeField.swift */; };
 		4D895FF025F773FE002C8F98 /* TypesOfSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FEF25F773FE002C8F98 /* TypesOfSheets.swift */; };
 		4D895FF325F77412002C8F98 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FF225F77412002C8F98 /* Gender.swift */; };
+		4D8960DA25F78ABE002C8F98 /* ShapeofHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8960D925F78ABE002C8F98 /* ShapeofHex.swift */; };
 		6B7437BBFDBC4AB35141027D /* Pods_All_Desgins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1A5D622DA6D6FA4F3E0A1 /* Pods_All_Desgins.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		4D895FEC25F773EA002C8F98 /* PasscodeField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeField.swift; sourceTree = "<group>"; };
 		4D895FEF25F773FE002C8F98 /* TypesOfSheets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypesOfSheets.swift; sourceTree = "<group>"; };
 		4D895FF225F77412002C8F98 /* Gender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		4D8960D925F78ABE002C8F98 /* ShapeofHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeofHex.swift; sourceTree = "<group>"; };
 		59B1A5D622DA6D6FA4F3E0A1 /* Pods_All_Desgins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_All_Desgins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFD51AC29CCA8501BE20623 /* Pods-All Desgins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-All Desgins.debug.xcconfig"; path = "Target Support Files/Pods-All Desgins/Pods-All Desgins.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 				4D895FE025F7733F002C8F98 /* PasscodeField */,
 				4D895FE225F77389002C8F98 /* DifferentActionSheets */,
 				4D895FE325F773A5002C8F98 /* Picker */,
+				4D8960D825F78A99002C8F98 /* Shapes */,
 				4D895FC825F772AB002C8F98 /* Assets.xcassets */,
 				4D895FCD25F772AB002C8F98 /* LaunchScreen.storyboard */,
 				4D895FD025F772AB002C8F98 /* Info.plist */,
@@ -160,13 +163,20 @@
 			path = Picker;
 			sourceTree = "<group>";
 		};
+		4D8960D825F78A99002C8F98 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				4D8960D925F78ABE002C8F98 /* ShapeofHex.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
 		E42252880B5F626C636BCD4A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				FDFD51AC29CCA8501BE20623 /* Pods-All Desgins.debug.xcconfig */,
 				01360311CD59A74C1A790098 /* Pods-All Desgins.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -284,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8960DA25F78ABE002C8F98 /* ShapeofHex.swift in Sources */,
 				4D895FC325F7729E002C8F98 /* AppDelegate.swift in Sources */,
 				4D895FDC25F77312002C8F98 /* CardStackView.swift in Sources */,
 				4D895FF025F773FE002C8F98 /* TypesOfSheets.swift in Sources */,

@@ -17,6 +17,9 @@ struct ContentView: View {
 //            TypesOfSheets()
 //            Gender()
             CardStackView()
+            
+            ShapeofHex()
+                .offset(y: 20)
         }
     }
 }
