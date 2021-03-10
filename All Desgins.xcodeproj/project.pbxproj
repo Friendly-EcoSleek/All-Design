@@ -21,6 +21,9 @@
 		4D895FF025F773FE002C8F98 /* TypesOfSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FEF25F773FE002C8F98 /* TypesOfSheets.swift */; };
 		4D895FF325F77412002C8F98 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D895FF225F77412002C8F98 /* Gender.swift */; };
 		4D8960DA25F78ABE002C8F98 /* ShapeofHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8960D925F78ABE002C8F98 /* ShapeofHex.swift */; };
+		4DE1560725F8899200318AEC /* ButtonIncrement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1560625F8899200318AEC /* ButtonIncrement.swift */; };
+		4DFFA0ED25F8AF0900D13A72 /* DatePickerFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFA0EC25F8AF0900D13A72 /* DatePickerFormats.swift */; };
+		4DFFA0F525F8E6C000D13A72 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFFA0F425F8E6C000D13A72 /* LoginViewController.swift */; };
 		6B7437BBFDBC4AB35141027D /* Pods_All_Desgins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1A5D622DA6D6FA4F3E0A1 /* Pods_All_Desgins.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +45,9 @@
 		4D895FEF25F773FE002C8F98 /* TypesOfSheets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypesOfSheets.swift; sourceTree = "<group>"; };
 		4D895FF225F77412002C8F98 /* Gender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
 		4D8960D925F78ABE002C8F98 /* ShapeofHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeofHex.swift; sourceTree = "<group>"; };
+		4DE1560625F8899200318AEC /* ButtonIncrement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonIncrement.swift; sourceTree = "<group>"; };
+		4DFFA0EC25F8AF0900D13A72 /* DatePickerFormats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerFormats.swift; sourceTree = "<group>"; };
+		4DFFA0F425F8E6C000D13A72 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		59B1A5D622DA6D6FA4F3E0A1 /* Pods_All_Desgins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_All_Desgins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFD51AC29CCA8501BE20623 /* Pods-All Desgins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-All Desgins.debug.xcconfig"; path = "Target Support Files/Pods-All Desgins/Pods-All Desgins.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +103,8 @@
 				4D895FE225F77389002C8F98 /* DifferentActionSheets */,
 				4D895FE325F773A5002C8F98 /* Picker */,
 				4D8960D825F78A99002C8F98 /* Shapes */,
+				4DE1560525F8896F00318AEC /* Buttons */,
+				4DFFA0E225F8A6CD00D13A72 /* DatePicker */,
 				4D895FC825F772AB002C8F98 /* Assets.xcassets */,
 				4D895FCD25F772AB002C8F98 /* LaunchScreen.storyboard */,
 				4D895FD025F772AB002C8F98 /* Info.plist */,
@@ -126,6 +134,7 @@
 			children = (
 				4D895FE525F773C4002C8F98 /* ObservableTextField.swift */,
 				4D895FE425F773C4002C8F98 /* PhoneNoType.swift */,
+				4DFFA0F425F8E6C000D13A72 /* LoginViewController.swift */,
 			);
 			path = "First Method";
 			sourceTree = "<group>";
@@ -169,6 +178,22 @@
 				4D8960D925F78ABE002C8F98 /* ShapeofHex.swift */,
 			);
 			path = Shapes;
+			sourceTree = "<group>";
+		};
+		4DE1560525F8896F00318AEC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				4DE1560625F8899200318AEC /* ButtonIncrement.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		4DFFA0E225F8A6CD00D13A72 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				4DFFA0EC25F8AF0900D13A72 /* DatePickerFormats.swift */,
+			);
+			path = DatePicker;
 			sourceTree = "<group>";
 		};
 		E42252880B5F626C636BCD4A /* Pods */ = {
@@ -294,15 +319,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DFFA0F525F8E6C000D13A72 /* LoginViewController.swift in Sources */,
 				4D8960DA25F78ABE002C8F98 /* ShapeofHex.swift in Sources */,
 				4D895FC325F7729E002C8F98 /* AppDelegate.swift in Sources */,
 				4D895FDC25F77312002C8F98 /* CardStackView.swift in Sources */,
+				4DFFA0ED25F8AF0900D13A72 /* DatePickerFormats.swift in Sources */,
 				4D895FF025F773FE002C8F98 /* TypesOfSheets.swift in Sources */,
 				4D895FC525F7729E002C8F98 /* SceneDelegate.swift in Sources */,
 				4D895FC725F7729E002C8F98 /* ContentView.swift in Sources */,
 				4D895FED25F773EA002C8F98 /* PasscodeField.swift in Sources */,
 				4D895FF325F77412002C8F98 /* Gender.swift in Sources */,
 				4D895FEA25F773D8002C8F98 /* PhoneCodeTap.swift in Sources */,
+				4DE1560725F8899200318AEC /* ButtonIncrement.swift in Sources */,
 				4D895FE725F773C4002C8F98 /* ObservableTextField.swift in Sources */,
 				4D895FE625F773C4002C8F98 /* PhoneNoType.swift in Sources */,
 			);

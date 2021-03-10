@@ -9,17 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        NavigationView{
         ZStack{
             Color.black
                 .edgesIgnoringSafeArea(.all)
-//        PhoneNoType()
+        PhoneNoType()
 //        PhoneCodeTap()
 //            TypesOfSheets()
 //            Gender()
-            CardStackView()
-            
-            ShapeofHex()
-                .offset(y: 20)
+//            CardStackView()
+//
+//            ShapeofHex()
+//                .offset(y: 20)
+        }
         }
     }
 }
